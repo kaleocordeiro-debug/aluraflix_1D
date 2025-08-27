@@ -1,5 +1,29 @@
+/* Estilo geral para o body */
 body {
-    color: white;
-    background: rgb(255, 0, 0)
-;
+    color: white; /* Cor do texto */
+    background-color: rgb(255, 0, 0); /* Cor do fundo vermelho */
+    font-family: Arial, sans-serif; /* Fonte simples */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Sombra suave no texto para dar profundidade */
+}
+
+/* Estilo para links */
+a {
+    color: white; /* Cor inicial do link */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold; /* Deixa os links em negrito */
+    transition: color 0.3s ease; /* Efeito suave na troca de cor */
+}
+
+/* Efeito de hover nos links */
+a:hover {
+    color: yellow; /* Cor amarela quando o mouse passa em cima do link */
+}
+
+/* Ajustes para telas pequenas (responsividade) */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px; /* Tamanho da fonte ajustado para telas menores */
+    }
 }
