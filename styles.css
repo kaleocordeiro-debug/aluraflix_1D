@@ -1,29 +1,26 @@
-/* Estilo geral para o body */
-body {
-    color: white; /* Cor do texto */
-    background-color: rgb(255, 0, 0); /* Cor do fundo vermelho */
-    font-family: Arial, sans-serif; /* Fonte simples */
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove padding padrão */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Sombra suave no texto para dar profundidade */
-}
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Aluraflix</title>
+</head>
 
-/* Estilo para links */
-a {
-    color: white; /* Cor inicial do link */
-    text-decoration: none; /* Remove sublinhado */
-    font-weight: bold; /* Deixa os links em negrito */
-    transition: color 0.3s ease; /* Efeito suave na troca de cor */
-}
+<body>
+    <header>ALURAFLIX</header>
 
-/* Efeito de hover nos links */
-a:hover {
-    color: yellow; /* Cor amarela quando o mouse passa em cima do link */
-}
+    <section>
+        <div>
+            <h1>ATRAVÉS DO ARANHAVERSO SUPERA O PRIMEIRO FILME?</h1>
+            <p>#homem-aranha</p>
+        </div>
 
-/* Ajustes para telas pequenas (responsividade) */
-@media (max-width: 600px) {
-    body {
-        font-size: 16px; /* Tamanho da fonte ajustado para telas menores */
-    }
-}
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gt_fAE1Eg2Q?si=EEv-tsY_b1B2OwKE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+</body>
+
+</html>
