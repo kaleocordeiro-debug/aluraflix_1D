@@ -48,6 +48,12 @@ section {
 /* código omitido */
 
 section {
+  /* código omitido */
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+}
   padding-left: 20px;
   padding-right: 20px;
 }
