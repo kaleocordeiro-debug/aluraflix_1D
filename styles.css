@@ -35,21 +35,10 @@ h1 {
 p {
   font-size: 20px;
 }
+
 img {
   height: 200px;
-section {
-  background: rgb(184, 156, 213);
-  padding-bottom: 80px;
-  padding-top: 80px;
-  display: flex;
-  justify-content: center;
 }
-
-/* código omitido */
-
-section {
-  /* código omitido */
-
 .categoria-videos {
   display: flex;
   overflow-x: auto;
